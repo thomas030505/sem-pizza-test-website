@@ -122,7 +122,7 @@ export default function Menu() {
         </div>
 
         {/* Filter tabs */}
-        <div className="flex gap-0 overflow-x-auto mb-8 border border-white/10 w-fit">
+        <div className="flex gap-0 overflow-x-auto mb-8 border border-white/10 w-full md:w-fit">
           {CATEGORIES.map((cat) => (
             <button
               key={cat.id}
