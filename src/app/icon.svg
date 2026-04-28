@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Background -->
+  <rect width="64" height="64" fill="#1A1A1A"/>
+  <!-- Red top accent -->
+  <rect x="0" y="0" width="64" height="5" fill="#C62828"/>
+  <!-- SEM -->
+  <text
+    x="32"
+    y="38"
+    font-family="Arial Black, Arial, sans-serif"
+    font-size="24"
+    font-weight="900"
+    fill="#FFFFFF"
+    text-anchor="middle"
+    letter-spacing="2"
+  >SEM</text>
+  <!-- PIZZA & GRILL -->
+  <text
+    x="32"
+    y="51"
+    font-family="Arial, sans-serif"
+    font-size="7"
+    font-weight="700"
+    fill="#FBC02D"
+    text-anchor="middle"
+    letter-spacing="1.5"
+  >PIZZA &amp; GRILL</text>
+</svg>
