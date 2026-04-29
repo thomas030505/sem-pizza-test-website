@@ -85,6 +85,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto mt-12 pt-6 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-3 text-xs text-white/20 tracking-wide">
         <span>&copy; {year} Sem Pizza &amp; Grill. Alle rettigheter forbeholdt.</span>
         <span>Sem, Tønsberg</span>
+        <span>Utviklet av <a href="https://taceit.no" target="_blank" rel="noopener noreferrer" className="hover:text-white/60 transition-colors">TACE IT AS</a></span>
       </div>
     </footer>
   );
