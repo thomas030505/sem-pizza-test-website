@@ -15,7 +15,7 @@ export default function About() {
         <div className="relative overflow-hidden h-72 md:h-96">
           <Image
             src="/images/restaurant-interior.jpg"
-            alt="Hyggelig atmosfære inne på Sem Pizza & Grill"
+            alt="Hyggelig atmosfære inne på Sem Grill og Pizza"
             fill
             className="object-cover"
             sizes="(max-width: 768px) 100vw, 50vw"
@@ -30,7 +30,7 @@ export default function About() {
           </span>
           <h2 className="text-4xl md:text-5xl font-black text-white mt-2 mb-5 leading-tight uppercase tracking-tight">
             Hjertene bak<br />
-            <span className="text-[#C62828]">Sem Pizza</span>
+            <span className="text-[#C62828]">Sem Grill og Pizza</span>
           </h2>
           <p className="text-white/60 leading-relaxed mb-4 text-sm">
             Vi er en lokal familirestaurant i hjertet av Sem som har servert

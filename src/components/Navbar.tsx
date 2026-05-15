@@ -33,7 +33,7 @@ export default function Navbar() {
             SEM
           </span>
           <span className="text-[10px] font-semibold tracking-[0.22em] text-[#FBC02D] uppercase">
-            Pizza &amp; Grill
+            Grill og Pizza
           </span>
         </Link>
 

@@ -10,7 +10,7 @@ export default function Footer() {
         <div>
           <div className="flex flex-col leading-none mb-4">
             <span className="text-xl font-black tracking-[0.18em] text-white uppercase">SEM</span>
-            <span className="text-[10px] font-semibold tracking-[0.22em] text-[#FBC02D] uppercase">Pizza &amp; Grill</span>
+            <span className="text-[10px] font-semibold tracking-[0.22em] text-[#FBC02D] uppercase">Grill og Pizza</span>
           </div>
           <p className="text-white/35 text-sm leading-relaxed">
             Din lokale pizzeria i Sem, Tønsberg. Fersk mat, god service og
@@ -83,7 +83,7 @@ export default function Footer() {
       </div>
 
       <div className="max-w-6xl mx-auto mt-12 pt-6 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-3 text-xs text-white/20 tracking-wide">
-        <span>&copy; {year} Sem Pizza &amp; Grill. Alle rettigheter forbeholdt.</span>
+        <span>&copy; {year} Sem Grill og Pizza. Alle rettigheter forbeholdt.</span>
         <span>Sem, Tønsberg</span>
         <span>Utviklet av <a href="https://taceit.no" target="_blank" rel="noopener noreferrer" className="hover:text-white/60 transition-colors">TACE IT AS</a></span>
       </div>

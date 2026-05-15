@@ -83,7 +83,7 @@ export default function MapSection() {
           {/* Map */}
           <div className="h-80 md:h-auto min-h-96">
             <iframe
-              title="Kart til Sem Pizza & Grill – Andebuveien 3, 3170 Sem"
+              title="Kart til Sem Grill og Pizza – Andebuveien 3, 3170 Sem"
               width="100%"
               height="100%"
               loading="lazy"

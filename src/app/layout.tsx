@@ -8,20 +8,20 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "Sem Pizza & Grill – Beste pizza, kebab og burger i Sem, Tønsberg",
+  title: "Sem Grill og Pizza – Beste pizza, kebab og burger i Sem, Tønsberg",
   description:
-    "Sem Pizza & Grill serverer fersk pizza, kebab, burger og grillretter i Sem (Tønsberg). Bestill via Foodora eller ring oss – rask levering og hyggelig service!",
+    "Sem Grill og Pizza serverer fersk pizza, kebab, burger og grillretter i Sem (Tønsberg). Bestill via Foodora eller ring oss – rask levering og hyggelig service!",
   keywords: [
     "pizza Sem",
     "kebab Tønsberg",
     "burger Sem",
     "pizza bestilling",
-    "Sem Pizza og Grill",
+    "Sem Grill og Pizza",
     "takeaway Tønsberg",
     "grillmat Sem",
   ],
   openGraph: {
-    title: "Sem Pizza & Grill",
+    title: "Sem Grill og Pizza",
     description:
       "Fersk pizza, kebab og burger i Sem – bestill nå via Foodora eller ring oss!",
     locale: "nb_NO",
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
 const schemaMarkup = {
   "@context": "https://schema.org",
   "@type": "Restaurant",
-  name: "Sem Pizza & Grill",
+  name: "Sem Grill og Pizza",
   description:
     "Restaurant i Sem (Tønsberg) med pizza, kebab, burger og grillretter.",
   servesCuisine: ["Pizza", "Kebab", "Burger", "Grillmat"],

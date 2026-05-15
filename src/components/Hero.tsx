@@ -12,7 +12,7 @@ export default function Hero() {
       {/* Background image */}
       <Image
         src="/images/hero-pizza.jpg"
-        alt="Nylaget pizza fra Sem Pizza & Grill"
+        alt="Nylaget pizza fra Sem Grill og Pizza"
         fill
         priority
         className="object-cover object-center"
@@ -29,8 +29,9 @@ export default function Hero() {
           4.4 / 5 &nbsp;&middot;&nbsp; Google-anmeldelser &nbsp;&middot;&nbsp; Sem, Tønsberg
         </p>
 
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-black text-white mb-4 leading-none tracking-tight uppercase whitespace-nowrap">
-          Sem <span className="text-[#FBC02D]">Pizza</span>
+        <h1 className="text-5xl md:text-7xl lg:text-8xl font-black text-white mb-4 leading-[0.95] tracking-tight uppercase">
+          <span className="block">Sem</span>
+          <span className="block text-[#FBC02D]">Grill og Pizza</span>
         </h1>
 
         <p className="text-base md:text-lg text-white/70 mb-10 max-w-lg mx-auto leading-relaxed tracking-wide">
