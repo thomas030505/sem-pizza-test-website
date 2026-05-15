@@ -23,7 +23,6 @@ interface MenuItem {
   subcategory?: string;
   popular?: boolean;
   spicy?: boolean;
-  isNew?: boolean;
 }
 
 const MENU_ITEMS: MenuItem[] = [
@@ -47,7 +46,7 @@ const MENU_ITEMS: MenuItem[] = [
   { id: 17, name: "Las Vegas",            desc: "Biff, pommes og bernaisesaus",                                                medium: 275, stor: 330, category: "amerikansk" },
 
   // Italiensk Pizza – Tynn bunn
-  { id: 24, name: "Margarita",            desc: "Ost og tomatsaus",                              medium: 180, stor: 220, category: "italiensk", subcategory: "Tynn bunn", isNew: true },
+  { id: 24, name: "Margarita",            desc: "Ost og tomatsaus",                              medium: 180, stor: 220, category: "italiensk", subcategory: "Tynn bunn" },
   { id: 25, name: "Vesuvio",              desc: "Ost, tomatsaus og skinke",                      medium: 200, stor: 240, category: "italiensk", subcategory: "Tynn bunn" },
   { id: 26, name: "Vegetar",              desc: "Løk, champignon, paprika, mais og oliven",      medium: 200, stor: 250, category: "italiensk", subcategory: "Tynn bunn" },
   { id: 27, name: "La Luna",              desc: "Løk, skinke, biff og champignon",               medium: 210, stor: 260, category: "italiensk", subcategory: "Tynn bunn" },
@@ -96,7 +95,7 @@ const MENU_ITEMS: MenuItem[] = [
   // Grill – Tallerkner
   { id: 61, name: "Løvstektallerken",           desc: "Med salat og pommes frites",            price: 165, category: "grill" },
   { id: 62, name: "Felafeltallerken",           desc: "Med salat og pommes frites",            price: 160, category: "grill" },
-  { id: 63, name: "Fish & Chips-tallerken",     desc: "Med salat og pommes frites",            price: 170, category: "grill", isNew: true },
+  { id: 63, name: "Fish & Chips-tallerken",     desc: "Med salat og pommes frites",            price: 170, category: "grill" },
   { id: 64, name: "Kyllingburgertallerken",     desc: "Med salat og pommes frites",            price: 155, category: "grill" },
   { id: 65, name: "Hamburgertallerken 100 gr.", desc: "Med salat og pommes frites",            price: 130, category: "grill" },
   { id: 66, name: "Hamburgertallerken 160 gr.", desc: "Med salat og pommes frites",            price: 145, category: "grill" },
@@ -123,10 +122,10 @@ const MENU_ITEMS: MenuItem[] = [
   { id: 85, name: "Baconcheese 250 gr.",                                     price: 180, category: "grill", subcategory: "Burgere" },
 
   // Bakt Potet
-  { id: 86, name: "Bakt potet m/ skinke",          price: 170, category: "bakt-potet", isNew: true },
-  { id: 87, name: "Bakt potet m/ skinke og bacon", price: 180, category: "bakt-potet", isNew: true },
-  { id: 88, name: "Bakt potet m/ kylling",         price: 180, category: "bakt-potet", isNew: true },
-  { id: 89, name: "Bakt potet m/ døner",           price: 180, category: "bakt-potet", isNew: true },
+  { id: 86, name: "Bakt potet m/ skinke",          price: 170, category: "bakt-potet" },
+  { id: 87, name: "Bakt potet m/ skinke og bacon", price: 180, category: "bakt-potet" },
+  { id: 88, name: "Bakt potet m/ kylling",         price: 180, category: "bakt-potet" },
+  { id: 89, name: "Bakt potet m/ døner",           price: 180, category: "bakt-potet" },
 
   // Barnemeny
   { id: 90, name: "Kyllingnuggets med pommes frites", price: 100, category: "barnemeny" },
@@ -308,11 +307,6 @@ export default function Menu() {
                         {item.spicy && (
                           <span className="text-[#C62828] text-[10px] font-bold uppercase tracking-wider border border-[#C62828]/40 px-1.5 py-0.5">
                             Sterk
-                          </span>
-                        )}
-                        {item.isNew && (
-                          <span className="text-[#C62828] text-[10px] font-bold uppercase tracking-wider border border-[#C62828]/40 px-1.5 py-0.5">
-                            Ny
                           </span>
                         )}
                       </div>
