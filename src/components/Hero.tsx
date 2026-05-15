@@ -30,8 +30,8 @@ export default function Hero() {
         </p>
 
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-black text-white mb-4 leading-[0.95] tracking-tight uppercase">
-          <span className="block">Sem</span>
-          <span className="block text-[#FBC02D]">Grill og Pizza</span>
+          <span className="block whitespace-nowrap">Sem Grill</span>
+          <span className="block whitespace-nowrap text-[#FBC02D]">og Pizza</span>
         </h1>
 
         <p className="text-base md:text-lg text-white/70 mb-10 max-w-lg mx-auto leading-relaxed tracking-wide">
